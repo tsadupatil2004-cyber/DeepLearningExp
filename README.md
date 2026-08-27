@@ -138,9 +138,9 @@ pip install tensorflow tensorflow-gpu numpy pandas matplotlib scikit-learn jupyt
 * **Objective:** Build a Variational Autoencoder (VAE) using the reparameterization trick to sample new data[cite: 1].
 * **Dataset:** MNIST[cite: 1]
 * **Architecture:** Conv2D Encoder → 20D Latent Space ($\mu, \sigma$) → Conv2DTranspose Decoder[cite: 1]
-
+---
 ## 📌 Summary Matrix
---
+
 | Exp # | Experiment Title | Key Concept | Network Architecture | Dataset Used |
 | :---: | :--- | :--- | :--- | :--- |
 | **1** | Anaconda/Miniconda Setup | Setup & Environment | N/A | N/A |
@@ -155,7 +155,7 @@ pip install tensorflow tensorflow-gpu numpy pandas matplotlib scikit-learn jupyt
 | **10** | Text Generation | Language Modeling | Dual LSTM layers | Shakespeare Text |
 | **11** | Neural Style Transfer | Gram Matrices & Content/Style | VGG19 Network | Custom Images |
 | **12** | Image Generation | Generative Modeling / Latent Space | VAE (Conv2D / Transpose) | MNIST |
-
+---
 ## 💡 Best Practices
 
 1. **Data Handling:** Always scale/normalize inputs and use proper dataset splits (70/15/15)[cite: 1].
