@@ -13,7 +13,6 @@ Welcome to the **Deep Learning Practicum** repository! This project contains cle
 * **University:** Shivaji University, Kolhapur
 
 ---
----
 
 ## 📌 Table of Contents
 
