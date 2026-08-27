@@ -1,4 +1,3 @@
-## Deep Learning Experiments 
 # Deep Learning Practicum Guide
 
 A practical repository containing 12 complete experiments using TensorFlow and Keras, ranging from beginner setup to intermediate deep learning topics such as Computer Vision, Sequence Modeling, and Generative AI[cite: 1].
@@ -9,7 +8,7 @@ A practical repository containing 12 complete experiments using TensorFlow and K
 
 * **Author:** Tanvi Sambhaji Sadupatil
 * **Department:** Data Science Engineering
-* **Roll no.:** 52
+* **Roll No.:** 52
 * **University:** Shivaji University, Kolhapur
 
 ---
@@ -24,8 +23,9 @@ A practical repository containing 12 complete experiments using TensorFlow and K
   - [Phase 3: Convolutional Neural Networks (CNN)](#phase-3-convolutional-neural-networks-cnn)
   - [Phase 4: Recurrent Neural Networks (RNN & Sequence Modeling)](#phase-4-recurrent-neural-networks-rnn--sequence-modeling)
   - [Phase 5: Advanced & Generative Models](#phase-5-advanced--generative-models)
-- [Best Practices](#best-practices)
-- [Recommended Resources](#recommended-resources)
+- [Summary Matrix](#-summary-matrix)
+- [Best Practices](#-best-practices)
+- [Recommended Resources](#-recommended-resources)
 
 ---
 
@@ -138,7 +138,9 @@ pip install tensorflow tensorflow-gpu numpy pandas matplotlib scikit-learn jupyt
 * **Objective:** Build a Variational Autoencoder (VAE) using the reparameterization trick to sample new data[cite: 1].
 * **Dataset:** MNIST[cite: 1]
 * **Architecture:** Conv2D Encoder → 20D Latent Space ($\mu, \sigma$) → Conv2DTranspose Decoder[cite: 1]
+
 ---
+
 ## 📌 Summary Matrix
 
 | Exp # | Experiment Title | Key Concept | Network Architecture | Dataset Used |
@@ -155,8 +157,11 @@ pip install tensorflow tensorflow-gpu numpy pandas matplotlib scikit-learn jupyt
 | **10** | Text Generation | Language Modeling | Dual LSTM layers | Shakespeare Text |
 | **11** | Neural Style Transfer | Gram Matrices & Content/Style | VGG19 Network | Custom Images |
 | **12** | Image Generation | Generative Modeling / Latent Space | VAE (Conv2D / Transpose) | MNIST |
+
 [cite: 1]
+
 ---
+
 ## 💡 Best Practices
 
 1. **Data Handling:** Always scale/normalize inputs and use proper dataset splits (70/15/15)[cite: 1].
