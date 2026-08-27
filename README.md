@@ -155,6 +155,8 @@ pip install tensorflow tensorflow-gpu numpy pandas matplotlib scikit-learn jupyt
 | **10** | Text Generation | Language Modeling | Dual LSTM layers | Shakespeare Text |
 | **11** | Neural Style Transfer | Gram Matrices & Content/Style | VGG19 Network | Custom Images |
 | **12** | Image Generation | Generative Modeling / Latent Space | VAE (Conv2D / Transpose) | MNIST |
+
+[cite: 1]
 ---
 ## 💡 Best Practices
 
